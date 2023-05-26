@@ -1,0 +1,191 @@
+thead th, tfoot td{
+	background-color: #586875;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+td, th{
+	padding: 5px 7px;
+}
+
+tbody tr:nth-child(odd){
+	background-color: #e3e5d7;
+}
+
+tbody td:nth-child(5){
+	text-align: right;
+}
+
+tr:hover{
+	background-color: #586875 !important;
+  color: white;
+}
+
+#tabla_clientes{
+	float: left;
+  width: 500px;;
+	margin: 5px;;
+}
+
+#p_error_eliminar, #p_error_extracto{
+  font-family: Arial;
+  color: #F51720;
+  font-size: 1em;
+  text-align: center;
+}
+
+#btn_buscar, #btn_eliminar, #btn_extracto, #btn_nuevo_cliente,#btn_logout{
+  border: none;
+  width: 130px;
+  height: 40px;
+  color: white;
+  border-radius: 180px;
+  background-color: #586875;
+  margin: 1%;
+  opacity: 0.8;
+}
+#div_logout{ 
+  text-align: right
+}
+
+#btn_logout{
+  margin-left: 10%;
+  
+}
+
+#btn_buscar:hover, #btn_eliminar:hover, #btn_extracto:hover, #btn_nuevo_cliente:hover,#btn_logout:hover{
+	border-radius: 10px;
+	transition: all 0.18s ease;
+  opacity: 1;
+}
+
+#btn_reset{
+  border: none;
+  width: 70px;
+  height: 40px;
+  color: white;
+  border-radius: 180px;
+  background-color: #F51720;
+  margin: 1%;
+}
+
+#input_buscar{
+  text-align: center;
+  width: 230px;
+  height: 40px;
+  border-radius: 180px;
+  margin: 1%;
+  margin-left: 4%;
+  border: #bdd6d2 1px;
+  opacity: 0.7;
+  color: black;
+}
+
+#div_menu{
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+#div_menu h2{
+  color: white; 
+  font-size: 60px;
+  text-align: center;
+}
+
+#div_buscar_nuevo_cliente{
+  text-align: left;
+}
+
+#div_cliente h2, #div_cuentas h2, #div_tarjetas h2{
+  text-align: center;
+  font-size: 25px;
+  color: #586875;
+  margin: 7px;
+}
+#div_cliente {
+  float: left;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 5px 5px 5px #bdd6d2;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #586875;
+  width: 250px;
+  border: solid 1px #bdd6d2;
+  display: block;
+  height: 626px;
+  margin: 5px;
+}
+
+#div_tarjetas{
+  width: 250px;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #bdd6d2;
+  border-radius: 10px;
+  font-size: 18px;
+  height: 320px;
+  border: solid 1px #bdd6d2;
+  margin: 5px;
+}
+
+#div_cuentas {
+  padding: 20px;
+  text-align: left;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px #bdd6d2;
+  border-radius: 10px;
+  font-size: larger;
+  color: #586875;
+  width: 250px;
+  border: solid 1px #bdd6d2;
+  margin: 5px;
+  height: 260px;
+}
+
+#div_datos_tarjetas{
+   text-align: left;
+   color: #586875;
+   font-size: 15px;
+
+}
+
+#div_tarjetas_cuentas{
+  float: left;
+}
+
+#p_error_extracto{
+  float: left;
+  margin-left: 130px;
+  font-size: 20px;
+}
+
+.input_cliente, input_cuentas, #div_tarjetas input,#div_cuentas input{
+   border: none;
+  height: 35px;
+  width: 230px;
+  font-size: 14px;
+  background-color: #586875;
+  color: white;
+  margin-bottom: 10px; 
+  border-radius: 0px;
+}
+
+.div_btn {
+  text-align: center; 
+  padding: 5px;
+}
+
+select {
+  border: none;
+  height: 37px;
+  width: 234px;
+  font-size: 14px;
+  background-color: #586875;
+  color: white;
+  margin-bottom: 10px; 
+  border-radius: 0px;
+}

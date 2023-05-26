@@ -1,0 +1,66 @@
+body{
+  text-align: center;
+  font-family: Trebuchet MS;
+}
+
+#div_registro{
+  display: block;
+  width: 210px;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 10px 10px 70px #a5c8ca;
+  border-radius: 20px;
+  
+}
+
+.input_registro{
+  margin-bottom: 10px;
+  width: 200px;
+  height: 30px; 
+  padding: 5px;
+  border-radius: 7px;
+  border: solid #bdd6d2 1px;
+}
+
+.input_login:hover {
+  border: solid #586875 1px;
+}
+
+hr{
+  margin-top: 20px;
+  height: 1px;
+  background-color: #d7d1ff;
+  border: 0;
+}
+
+
+#btn_login, #btn_registro{
+  border: none;
+  margin-top: 30px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  border-radius: 180px;
+  background-color: #586875;
+}
+
+#btn_login:hover,#btn_registro:hover{
+	
+	width: 150px; 
+	border-radius: 10px;
+	transition: all 0.18s ease;
+}
+
+#btn_login:active, #btn_registro:active{
+	width: 210px; 
+	border-radius: 10px;
+	transition: all 0.18s ease;
+}
+
+#p_registro_error {
+  font-family: Arial;
+  color: #F51720;
+  font-size: 0.8em;
+}

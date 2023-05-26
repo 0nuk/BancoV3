@@ -1,0 +1,92 @@
+body {
+   text-align: -moz-center;
+}
+#p_error_nuevo_cliente{
+  font-family: Arial;
+  color: #F51720;
+  font-size: 1em;
+  text-align: center;
+}
+
+ #btn_nuevo_cliente,#btn_logout, #btn_clientes, #btn_crear{
+  border: none;
+  width: 130px;
+  height: 40px;
+  color: white;
+  border-radius: 180px;
+  background-color: #586875;
+  margin: 2%;
+  opacity: 0.8;
+}
+
+#btn_clientes{
+  margin-left: 50px;
+}
+
+#div_logout{ 
+  text-align: right
+}
+
+#btn_logout{
+  margin-left: 10%;
+  
+}
+
+#btn_clientes:hover, #btn_nuevo_cliente:hover,#btn_logout:hover, #btn_crear:hover{
+	border-radius: 10px;
+	transition: all 0.18s ease;
+  opacity: 1;
+}
+
+#div_menu{
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+#div_menu h2{
+  color: white; 
+  font-size: 60px;
+  text-align: center;
+}
+
+#div_buscar_nuevo_cliente{
+  text-align: left;
+}
+
+#div_nuevo_cliente {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 100px #586875;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #586875;
+  width: 250px;
+  border: solid 1px #bdd6d2;
+  height: 430px;
+  margin: 60px;
+}
+
+
+.input_nuevo_cliente {
+  border: none;
+  height: 35px;
+  width: 230px;
+  font-size: 14px;
+  background-color: #586875;
+  color: white;
+  margin-bottom: 10px; 
+  border-radius: 0px;
+}
+
+#div_nuevo_cliente select{
+  border: none;
+  height: 38px;
+  width: 234px;
+  font-size: 14px;
+  background-color: #586875;
+  color: white;
+  margin-bottom: 10px; 
+  border-radius: 0px;
+}

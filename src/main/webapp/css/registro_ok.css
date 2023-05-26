@@ -1,0 +1,321 @@
+#div_datos_tarjetas{
+  display: block;
+  width: 250px;
+  text-align: left;
+  margin: 0px;
+  margin-top: 30px;
+  box-shadow: 10px 10px 15px white;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 0px;
+}
+
+#div_datos_tarjetas p {
+  padding: 5px;
+}
+
+#eliminar{
+  margin-left: 45px;
+}
+
+#btn_2{
+  float: left;
+  margin: 10px;
+  box-shadow: 5px 5px 20px #bdd6d2;
+}
+
+#btn_1{
+  float: right;
+  margin: 10px;
+  box-shadow: 5px 5px 20px #bdd6d2;
+}
+
+#buscar{
+  float: left;
+  margin: 10px;
+  box-shadow: 5px 5px 20px #bdd6d2;
+  border-radius: 180px;
+  text-align: center;
+}
+
+
+#btn_3 {
+  float: right;
+  margin: 10px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 20px #bdd6d2;
+  margin-left: 265px;
+}
+
+
+#cuenta {
+  float: left;
+  padding: 20px;
+  margin-left: 15px;
+  text-align: left;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px #bdd6d2;
+  border-radius: 10px;
+  font-size: larger;
+  color: #586875;
+  width: 240px;
+  border: solid 1px #bdd6d2;
+}
+
+#cli {
+  float: left;
+  padding: 20px;
+  margin-left: 15px;
+  text-align: left;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px #bdd6d2;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #586875;
+  width: 240px;
+  border: solid 1px #bdd6d2;
+}
+
+#tarjetas {
+  float: left;
+  padding: 20px;
+  margin-left: 15px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px #bdd6d2;
+  border-radius: 10px;
+  font-size: large;
+  color: #586875;
+  width: 240px;
+  height: 250px;
+  border: solid 1px #bdd6d2;
+}
+
+
+#cli_nuevo_div {
+  float: left;
+  padding: 20px;
+  margin-left: 55px;
+  text-align: left;
+  margin-top: 20px;
+  box-shadow: 10px 10px 30px #bdd6d2;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #586875;
+  width: 240px;
+ 
+}
+
+p{
+  margin: 0px;
+}
+
+#tabla_extracto{
+  float: right;
+  text-align: left;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #586875;
+  width: min-content;
+}
+
+#tabla_datos{
+  text-align: left;
+}
+
+#nuevo{
+  float: left;
+  padding:30px;
+  width: 300px;
+  margin-top: 30px;
+}
+
+#genero{
+  margin-bottom: 10px;
+  width: 240px;
+  height: 45px; 
+  padding: 5px;
+
+
+}
+
+.celda {
+  background-color:  #586875;
+  color: white;
+}
+
+#cuenta{
+  text-align: center;
+  padding: 20px;
+  
+}
+
+#select_cuenta, .oscuro{
+  border: none;
+  height: 50px;
+  width: 240px;
+  font-size: 14px;
+  background-color: #586875;
+  color: white;
+  margin-bottom: 10px; 
+  border-radius: 0px;
+  
+}
+
+  .oscuro{
+  border: none;
+  height: 35px;
+  width: 230px;
+  font-size: 14px;
+  background-color: #586875;
+  color: white;
+  margin-bottom: 10px; 
+  border-radius: 0px;
+  
+  
+}
+
+
+
+
+hr{
+  margin-top: 20px;
+  height: 1px;
+  background-color: #d7d1ff;
+  border: 0;
+}
+
+h2{
+  color: white;
+  margin-bottom: 25px;  
+  font-size: 60px;
+}
+
+body{
+  text-align: center;
+  font-family: Trebuchet MS;
+}
+
+.menu{
+  display: block;
+  width: 1000px;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 5px 5px 50px #a5c8ca;
+  border-radius: 10px;
+  color: #586875;
+  
+}
+
+div{
+  display: block;
+  width: 210px;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 10px 10px 30px #a5c8ca;
+  border-radius: 20px;
+  
+}
+
+.cuerpo{
+  display: block;
+  width: 410px;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 10px 10px 700px #5460ab;
+  border-radius: 20px;
+  
+}
+
+
+input{
+  margin-bottom: 10px;
+  width: 200px;
+  height: 30px; 
+  padding: 5px;
+  border-radius: 7px;
+  border: solid #bdd6d2 1px;
+}
+
+input:hover {
+  border: solid #586875 1px;
+}
+
+.oscuro:hover {
+  border: none;
+}
+
+button{
+  border: none;
+  margin-top: 30px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  border-radius: 180px;
+  background-color: #586875;
+}
+
+button:hover{
+	
+	width: 150px; 
+	border-radius: 10px;
+	transition: all 0.18s ease;
+	
+}
+
+.movi:active{
+	
+	width: 210px; 
+	border-radius: 10px;
+	transition: all 0.18s ease;
+	
+}
+
+#error{
+  font-family: Arial;
+  color: #F51720;
+  font-size: 0.8em;
+}
+
+table{
+	float: left;
+  width: 40%;
+	margin: 20px auto;
+  border-radius: 5px; 
+}
+
+caption {
+	font-size: 1.4em;
+	margin: 10px;
+	font-weight:  bold; 
+}
+
+thead th, tfoot td{
+	background-color: #586875;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+td, th{
+	padding: 5px 7px;
+}
+
+tbody tr:nth-child(odd){
+	background-color: #e3e5d7;
+}
+
+tbody td:nth-child(5){
+	text-align: right;
+}
+
+tr:hover{
+	background-color: #586875 !important;
+  color: white;
+}
