@@ -14,8 +14,8 @@
 <body>
 	<div id="div_registro_ok">
 		<h1>Felicitaciones</h1>
-		<p class="p_registro_ok"><c:out value="${nuevo_usuario.nombre}"/> te has registrado con éxito</p>
-		<p class="p_registro_ok">Tu usuario es: <c:out value="${nuevo_usuario.usuario}"/></p>
+		<p class="p_registro_ok"><c:out value="${usuario_nuevo.nombre}"/> te has registrado con éxito</p>
+		<p class="p_registro_ok">Tu usuario es: <c:out value="${usuario_nuevo.usuario}"/></p>
 		
 		<a href="${home}/login"><button id="btn_login">Login</button></a>	
 	</div>

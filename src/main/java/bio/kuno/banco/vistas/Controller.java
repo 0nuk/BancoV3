@@ -36,5 +36,6 @@ public class Controller extends HttpServlet {
 		app.setAttribute("home", context + "/home");
 		app.setAttribute("css", context + "/css");
 		app.setAttribute("images", context + "/images");
+		app.setAttribute("js", context + "/js");
 	}
 }
